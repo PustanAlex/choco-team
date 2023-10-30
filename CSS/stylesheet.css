@@ -126,7 +126,7 @@
 }
 
 .main-section .product-advertisement {
-    background-image: url(/images/main-image.jpg);
+    background-image: url(../images/main-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 621px;
