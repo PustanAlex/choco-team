@@ -123,12 +123,13 @@
     align-items: center;
     justify-content: center;
     width: 335px;
-}
-
-.main-section .product-advertisement {
     background-image: url(../images/main-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
+}
+
+.main-section .product-advertisement {
     height: 621px;
     width: 295px;
     display: flex;
@@ -138,7 +139,7 @@
     gap: 32px;
     padding: 20px ;
     color: #fff;
-    border-radius: 30px;
+
 }
 
 .main-section .product-advertisement span {
