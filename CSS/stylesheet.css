@@ -1,0 +1,207 @@
+:root {
+    --font-family-- : 'Montserrat' ,'sans-serif';
+}
+
+.container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.js-menu-container {
+    display: flex;
+    height: 700px;
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    background-color: #1E1823;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    
+}
+
+.js-menu-container .about-us-informations {
+    margin-top: 135px;
+    margin-left: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 0;
+    color: #FFF;
+    font-family: var(--font-family--);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+    letter-spacing: -0.28px;
+}
+
+.js-menu-container .about-us-informations li:hover {
+    color: #FD9222;
+    cursor: pointer;
+}
+
+.js-menu-container .menu-social-icons {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    gap: 18px;
+    margin: 20px 20px;
+}
+
+.js-menu-container .menu-social-icons svg{
+    width: 22px;
+    height: 22px;
+    fill: #fff;
+}
+
+.js-menu-container .js-close-menu {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    fill: #fff;
+    margin: 20px 20px;
+}
+
+.js-menu-container .js-close-menu:hover {
+    cursor: pointer;
+}
+
+.is-open {
+    display: none;
+}
+
+
+.mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 335px;
+}
+
+.mobile-header  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mobile-header .header-logo span {
+    color: #111;
+    font-family: var(--font-family--);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px; 
+    letter-spacing: -0.42px;
+    text-transform: uppercase;
+}
+
+.mobile-header .header-logo .chocolate-logo-icon {
+    width: 21px;
+    height: 21px;
+    fill: none;
+}
+
+.mobile-header .mobile-opener-icon {
+    width: 32px;
+    height: 32px
+}
+
+.mobile-header .mobile-opener-icon:hover {
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 335px;
+}
+
+.main-section .product-advertisement {
+    background-image: url(/images/main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 621px;
+    width: 295px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 32px;
+    padding: 20px ;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.main-section .product-advertisement span {
+    font-family: var(--font-family--);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    font-style:normal;
+
+}
+
+.main-section .product-advertisement .main-div-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+
+.main-section .product-advertisement .main-div-buttons button {
+    height: 41px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px ;
+    color: #FFF;
+    font-family: var(--font-family--);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-section .product-advertisement .main-div-buttons>:first-child {
+    width: 120px;
+}
+
+.main-section .product-advertisement .main-div-buttons>:last-child {
+    width: 159px;
+}
+
+.main-section .product-advertisement .main-div-buttons button:hover {
+    background-color: #FD9222;
+    border-color: #FD9222;
+    cursor: pointer;
+} 
+
+.main-section .scroll-down {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+    font-family: var(--font-family--);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; 
+    letter-spacing: -0.36px;
+}
+
+.main-section .scroll-down svg {
+    width:28px ;
+    height: 28px;
+}
+
+.main-section .scroll-down svg:hover {
+    cursor: pointer;
+}
