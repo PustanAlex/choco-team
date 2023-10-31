@@ -20,14 +20,15 @@
     overflow: hidden;
     
 }
-
 .js-menu-container .about-us-informations {
     margin-top: 135px;
     margin-left: 50px;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.js-menu-container .about-us-informations a {
+    text-decoration: none;
     padding-left: 0;
     color: #FFF;
     font-family: var(--font-family--);
@@ -38,7 +39,7 @@
     letter-spacing: -0.28px;
 }
 
-.js-menu-container .about-us-informations li:hover {
+.js-menu-container .about-us-informations a:hover {
     color: #FD9222;
     cursor: pointer;
 }
