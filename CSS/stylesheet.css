@@ -1,5 +1,6 @@
 :root {
     --font-family-- : 'Montserrat' ,'sans-serif';
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -52,10 +53,10 @@
     border-bottom: 1px solid #FD9222;
     width: fit-content;
     padding-bottom: 8px;
-
+    transition: var(--transition);
 }
 
-/* TODO: MAKE NAV STOP MOVING AFTER HOVER */
+
 
 .header-social-icons {
     display: flex;
@@ -218,7 +219,6 @@
     fill: #FD9222;
 }
 
-/* TODO: CHANGE FILL COLOR OR SCROLL SVG AND THE TWITTER SVG */
 
 
 .main-section .scroll-down {
@@ -342,6 +342,9 @@
 
 
 }
+
+/* TODO: CHANGE FILL COLOR OR SCROLL SVG AND THE TWITTER SVG */
+/* TODO: MAKE NAV STOP MOVING AFTER HOVER */
 
 
 /* Desktop */
